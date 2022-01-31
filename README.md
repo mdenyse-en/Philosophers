@@ -1,5 +1,4 @@
 # Philosophers
--------
 The main aim of that project is solving problem of eating philosophers:
 - One or more philosophers sit at a round table. There is a large bowl of spaghetti in the middle of the table.
 - The philosophers alternatively eat, think, or sleep. While they are eating, they are not thinking nor sleeping while thinking, they are not eating nor sleeping and, of course, while sleeping, they are not eating nor thinking.
@@ -20,16 +19,17 @@ The main aim of that project is solving problem of eating philosophers:
 - **number_of_times_each_philosopher_must_eat (optional argument)**: If all philosophers have eaten at least number_of_times_each_philosopher_must_eat times, the simulation stops. If not specified, the simulation stops when a philosopher dies.
 
 ----
-## /Philo:
+### /Philo:
 In that directory contains the program where each philosopher is a thead and using mutex.
 There is one fork between each pair of philosophers. If there is only one philosopher, there should be only one fork on the table.
 
 ----
-## /Philo_bonus:
+### /Philo_bonus:
 In that directory contains the program where each philosopher is a proces and using semafores. 
 All forks are put in the middle of the table.
 
-## Output sample:
+---
+#### Output sample:
 ```
 ./philo 2 150 100 200
 0ms philosopher 1 take a fork
@@ -41,3 +41,4 @@ All forks are put in the middle of the table.
 100ms philosopher 2 start eating
 150ms philosopher 1 die
 ```
+
